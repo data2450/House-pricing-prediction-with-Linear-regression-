@@ -24,3 +24,9 @@ There were some missing values.And the continous varibles were skewed .We create
 # feature engneering
 since the data contains missing values we removed missing values with appropriate way.And some varibles were skewed we applyed log transformation
 and minmax scaling to all dataset at the end after handling the missing values and skewed varibles
+# feature selection 
+By applying lasso regression to the new dataset we selected the appropriate features
+total features: 82
+selected features: 21
+features with coefficients shrank to zero: 61
+we were remained with 21 features which have good relation between with the target varible "House price" the alpha used is  0.005 
